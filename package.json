@@ -8,9 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-	"predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "export": "next build"
   },
   "dependencies": {
     "@hookform/resolvers": "^4.1.3",
